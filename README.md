@@ -1,15 +1,35 @@
 # Scripts - MN
 
-## The Range-Kutta Method (RK4)
+This repository contains Python implementations of various numerical methods commonly used in scientific computing. The implemented methods are as follows:
 
-The RangeKutta method is a numerical technique used to approximate the solutions of ordinary differential equations (ODEs). It is named after the German mathematicians Carl Runge and Martin Wilhelm Kutta, who independently developed the method in the late 19th century. The RangeKutta method is widely used due to its simplicity and accuracy in solving ODEs numerically.
+## Bisection Method
+The bisection method is a root-finding algorithm that works by repeatedly bisecting an interval and selecting the subinterval in which a root exists.
 
-### How does it work?
+## Euler's Method
+Euler's method is a simple numerical method for solving ordinary differential equations. It approximates the solution by taking small steps along the tangent line at each point.
 
-The RangeKutta method approximates the solution of an ODE by iteratively calculating the values of the function at different points. The general form of a first-order ODE is:
+## Gauss-Jordan Method
+The Gauss-Jordan method is an algorithm used to solve systems of linear equations by performing elementary row operations on an augmented matrix.
 
-dy/dx = f(x, y)
+## General Iterative Method
+The general iterative method is an iterative technique used to solve nonlinear equations by repeatedly applying an iterative formula until convergence is achieved.
 
-where dy/dx is the derivative of y with respect to x, and f(x, y) is a known function.
+## Jacobi Method
+The Jacobi method is an iterative algorithm used to solve systems of linear equations. It updates each variable by using the values from the previous iteration.
 
-The RangeKutta method involves dividing the interval over which the solution is sought into a series of smaller steps. The basic idea is to compute the value of y at each step, using the information from the previous step.
+## Newton's Method
+Newton's method is a root-finding algorithm that works by iteratively improving an initial guess for the root using the derivative of the function.
+
+## Runge-Kutta Method
+The Runge-Kutta method is a numerical integration technique used to solve ordinary differential equations. It provides a more accurate approximation than Euler's method.
+
+## Secant Method
+The secant method is a root-finding algorithm that works by iteratively constructing secant lines between two points and selecting the next point where the secant line intersects the x-axis.
+
+Feel free to explore each method's implementation in the respective Python files provided in this repository. Happy coding!
+
+---
+
+Don't forget to share this awesome repo with your friends! 🚀🔥
+
+[Made by Simão Júnior, Belarmino](https://www.instagram.com/wonderr____/)
