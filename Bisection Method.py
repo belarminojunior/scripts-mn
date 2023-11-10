@@ -1,6 +1,6 @@
 from math import *
 
-FUNCTION = lambda x : x**2 - 5
+FUNCTION = lambda x : exp(x-3) + x**2 - 5
 A = 2
 B = 3
 MAX_ERROR = 0.01

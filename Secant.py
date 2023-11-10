@@ -5,6 +5,16 @@ x0 = 2
 xf = 3
 MAX_ERROR = 0.01
 
+
+
+
+
+
+
+
+
+
+
 def sc(f, x0, xf, erro_max):
     m = 0
     xm = x0
